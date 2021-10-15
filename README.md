@@ -18,6 +18,15 @@ To see apps that use variations of this setup, check out:
 * [Android](https://play.google.com/store/apps/details?id=com.ingrate.arcadevol1)
 
 ## The Basic App
+### Unity Project
+![Project Screenshot](./Images/projectScreenshot.png)
+
+### Basic UI
+![UI Screenshots](./Images/uiScreenshots.png)
+
+### Stencil Demo
+![Stencil Demo](./Images/stencilDemo.png)
+
 The sample scene (Scenes/Sample Scene) has an AR App prefab to demonstrate the
 simplest version of the structure. Building it gives you an app that looks
 like this:
