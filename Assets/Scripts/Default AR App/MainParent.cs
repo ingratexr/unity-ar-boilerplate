@@ -4,39 +4,6 @@ using UnityEngine;
 
 public class MainParent : MonoBehaviour
 {
-    #region New Mobile AR Project Checklist
-
-    /*  
-     *  NEW PROJECT CHECKLIST:
-     *      --Change platform to Android in Build Settings
-     *      --Install packages:
-     *          --ARFoundation (4.0.8 works) - this will also install the AR Subsystems package
-     *          --ARCore XR Plugin (4.0.8 works)
-     *          --ARKit XR Plugin (4.0.8 works)
-     *          --DO NOT install ARKit FaceTracking - App Store will reject apps with this package unless they use the front camera
-     *          --Advertisement
-     *      --Project Settings -> XR Plug in Management -> check ARCore for Android and ARKit for iOS
-     *      --Project Settings -> Quality -> 
-     *              Shadow Resolution: High Resolution
-     *              Shadow Distance: 8
-     *      --Player Settings:
-     *          --Company/Project name (com.ingrate.appTitle)
-     *          --Add default Ingrate icon
-     *          --Splash image - add Ingrate vertical logo, change BG color to white, other setting to dark on light
-     *          --Android scripting backend: IL2CPP, not Mono
-     *          --Android target architectures: ARMv7 and ARM64
-     *          --Android set min/target API level (29 works as of January 2021)
-     *          --iOS signing team ID - add Apple ID email address
-     *          --iOS - check "requires ARKit support", change minimum iOS version
-     *          --iOS architecture: ARM64, not universal
-     *          --Add camera, microphone, location usage descriptions
-     *      --In the scene
-     *          --Remember to add an Event System
-     *      
-     */
-
-    #endregion
-
     #region Magic Editor Constants
 
     /// <summary>
