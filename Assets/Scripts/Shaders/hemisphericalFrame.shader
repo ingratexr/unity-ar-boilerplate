@@ -61,6 +61,8 @@
 			// Discard pixels farther from radius + fade from center point
 			// Also discard pixels lower than center point - fade
 			float d = distance(_Center, IN.worldPos);
+			if (d > _Radius + _Fade) 
+			discard;
 			if (IN.worldPos.y < _Center.y - _Fade)
 			discard;
 
