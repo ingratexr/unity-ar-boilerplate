@@ -6,7 +6,7 @@ using UnityEngine.XR.ARSubsystems;
 
 /// <summary>
 /// Class that looks for surfaces to place objects in AR by raycasting out from
-/// camera. Where surfaces found, prompts user with indicator that shows where
+/// camera. Where surfaces are found, prompts user with indicator that shows where
 /// the object will be placed. Places object. Should be placed on the same
 /// GameObject as ARPlacementUI component.
 /// </summary>
@@ -30,7 +30,7 @@ public class ARPlacementMgr : MonoBehaviour
     [SerializeField] private Camera ARCam = default;
 
     /// <summary>
-    /// AR Session's raycast manager, which is - no shit - for raycasting.
+    /// AR Session's raycast manager.
     /// </summary>
     private ARRaycastManager raycastMgr;
 
