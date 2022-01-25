@@ -4,6 +4,10 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class that sits at the root of the scene's UI tree and controls which
+/// submenu is visible when the main (ie non-AR) UI is visible.
+/// </summary>
 public class MainUI : MonoBehaviour
 {
     #region Variables

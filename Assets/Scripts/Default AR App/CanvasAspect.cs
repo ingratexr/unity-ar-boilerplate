@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Automatically update value for how much canvas is matching width vs height
-/// to reference canvas size.
+/// Class that automatically update value for how much canvas is matching width
+/// vs height to reference canvas size.
 /// </summary>
 public class CanvasAspect : MonoBehaviour
 {

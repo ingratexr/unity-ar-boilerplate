@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine.Advertisements;
 using UnityEngine;
 
+/// <summary>
+/// Class that manages playing ads via Unity Ads.
+/// </summary>
 public class AdMgr : MonoBehaviour
 {
     #region Magic Constants

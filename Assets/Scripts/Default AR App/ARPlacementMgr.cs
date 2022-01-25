@@ -212,7 +212,7 @@ public class ARPlacementMgr : MonoBehaviour
     /// </summary>
     /// <param name="_height">
     /// New screenPointHeight.
-    /// param>
+    /// </param>
     private void SetScreenPointHeight(float _height)
     {
         if (_height < 0 || _height > 1)

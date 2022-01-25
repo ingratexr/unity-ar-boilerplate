@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Copy another camera's projection matrix and use it for this camera.
-/// (Must be placed on an object with a camera component.)
+/// Class that copies another camera's projection matrix and use it for the
+/// camera on which this class is placed (this class must be placed on a camera
+/// object).
 /// Attach this script to any cameras that are children of an AR Camera and
 /// need to have the exact same view of a scene.
 /// </summary>

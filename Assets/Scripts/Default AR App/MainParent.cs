@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class that sits at the root of the app. Initializes scene objects and 
+/// determines whether the main menu or the AR scene is visible to the user.
+/// </summary>
 public class MainParent : MonoBehaviour
 {
     #region Magic Editor Constants

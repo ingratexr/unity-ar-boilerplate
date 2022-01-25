@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Detects rotating two-finger touch input from user and rotates the scene's
-/// ARSessionOrigin object (therefore rotating the scene) as the touch input
-/// rotates.
+/// Class that detects rotating two-finger touch input from user and rotates
+/// the scene's ARSessionOrigin object (therefore rotating the scene) as the 
+/// touch input rotates.
 /// </summary>
 public class ARRotateGesture : MonoBehaviour
 {

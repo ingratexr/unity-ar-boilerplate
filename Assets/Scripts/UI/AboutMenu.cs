@@ -15,12 +15,12 @@ public class AboutMenu : MonoBehaviour
     string privacyPolicyUrl = "https://ingratexr.com/privacy";
 
     /// <summary>
-    /// Url that points to a page with more info about Ingrate
+    /// Url that points to a page with more info about Ingrate.
     /// </summary>
     string ingrateInfoUrl = "https://ingratexr.com";
 
     /// <summary>
-    /// Url that points to terms and conditions to subject user to
+    /// Url that points to terms and conditions to subject user to.
     /// </summary>
     string termsConditionsUrl = "https://ingratexr.com";
 
@@ -29,7 +29,7 @@ public class AboutMenu : MonoBehaviour
     #region Methods
 
     /// <summary>
-    /// Set the privacy policy url
+    /// Set the privacy policy url.
     /// </summary>
     /// <param name="_url">
     /// Privacy policy url to use
@@ -40,10 +40,10 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Set the Ingrate info url
+    /// Set the Ingrate info url.
     /// </summary>
     /// <param name="_url">
-    /// Ingrate info url to use
+    /// Ingrate info url to use.
     /// </param>
     public void SetIngrateInfoUrl(string _url)
     {
@@ -51,10 +51,10 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Set the terms and conditions url
+    /// Set the terms and conditions url.
     /// </summary>
     /// <param name="_url">
-    /// Terms and conditions url to use
+    /// Terms and conditions url to use.
     /// </param>
     public void SetTermsConditionsUrl(string _url)
     {
@@ -62,7 +62,7 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Set any of the url variables. Takes a ref to the string you want to
+    /// Sets any of the url variables. Takes a ref to the string you want to
     /// change, checks that you're not changing it to null or an empty string,
     /// and changes it to the url you want.
     /// </summary>
@@ -84,7 +84,7 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Open the privacy policy url in browser
+    /// Open the privacy policy url in browser.
     /// </summary>
     public void OpenPrivacyPolicy()
     {
@@ -92,7 +92,7 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Open the Ingrate Info url in browser
+    /// Open the Ingrate Info url in browser.
     /// </summary>
     public void OpenIngrateInfo()
     {
@@ -100,7 +100,7 @@ public class AboutMenu : MonoBehaviour
     }
 
     /// <summary>
-    /// Open the terms and conditions url in browser
+    /// Open the terms and conditions url in browser.
     /// </summary>
     public void OpenTermsConditions()
     {
