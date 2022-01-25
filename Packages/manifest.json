@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.caseydecoder.doxygengenerator": "https://github.com/Casey-Hofland/DoxygenGenerator.git",
     "com.unity.ads": "3.4.9",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
