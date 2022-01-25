@@ -104,7 +104,7 @@ versa, and to adjust programatically to different screen aspect ratios (eg an
 iPhone X vs an iPad vs a Pixel).
 
 ### CopyCamera
-Copy's the main AR camera's projection matrix and applies it to another camera,
+Copies the main AR camera's projection matrix and applies it to another camera,
 which it assumes is a child of the main AR camera. A typical use case for this
 scenario is to have a main AR camera that renders everything except UI, and then
 a child UI camera that renders only UI.
