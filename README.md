@@ -14,7 +14,7 @@ To see apps that use variations of this setup, check out:
 * [Android](https://play.google.com/store/apps/details?id=com.Ingrate.StNick)
 * [iOS](https://apps.apple.com/us/app/saint-nick/id1547056442)
 ### Arcade Ingrate Vol 1
-*Kinda raunchy; may be NSFW if your place of employment is conservative.*
+*Somewhat raunchy; may be NSFW if your place of employment is conservative.*
 * [Android](https://play.google.com/store/apps/details?id=com.ingrate.arcadevol1)
 
 ## The Basic App
@@ -58,7 +58,7 @@ a functioning app.
 Sits at the root of the app. Controls whether the AR Placement UI or the Main UI
 is active.
 
-### Ad Mgr
+### AdMgr
 Extremely basic implementation for using Unity Ads in an app.
 
 ### ARPlacementMgr / ARPlacementUI
@@ -67,7 +67,7 @@ object in space. The ARPlacementMgr looks for planes where your AR can be
 placed. The ARPlacementUI responds to events that the ARPlacementMgr fires and
 manages the UI to prompt the user accordingly.
 
-### AR Scene Object / AR Scene Placer
+### ARSceneObject / ARScenePlacer
 These aren't components exactly, but the AR content you're going to place in the
 scene. The ARPlacementMgr shows the Scene Placer to the user to indicate where
 the AR will go. The user can move their device and pinch to scale or rotate the
@@ -96,7 +96,7 @@ from the center of the camera. If the raycast hits the object, figures out the
 X-axis position (in local space) of that intersection, which can then be used
 however you want (ie normalized to a range of -1, 1 to use as left/right input).
 
-### Canvas Aspect
+### CanvasAspect
 Changes Unity's Canvas Scaler component on the mainScreenSpaceCanvas object to
 adjust how much it matches the screen's width vs height. The idea is to make the
 canvas responsive as the device changes from landscape to portrait and vice
