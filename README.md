@@ -53,6 +53,7 @@ with whatever amazing AR stuff you want to put into the world and you'll have
 a functioning app.
 
 # Documentation
+[Detailed Documentation](https://ingratexr.github.io/unity-ar-boilerplate/html/index.html)
 ## Scripts > Default AR App
 ### Main Parent
 Sits at the root of the app. Controls whether the AR Placement UI or the Main UI
